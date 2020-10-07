@@ -1,27 +1,18 @@
 # Keyboard
 
-+ Dependencies: `lpthread`
-+ Includes: `keyboard.h`
+Dependencies: `lpthread`  
+Includes: `keyboard.h`
 
 
-## How to build
+## How to Build
 
-```
-$ git clone https://github.com/kaorukakinuma/keyboard.git
-$ cd keyboard
+```sh
 $ sudo ./mk.sh
 #snip
 $ ls /home/lib
 libkeyboard.a
 $ ls /home/include
 keyboard.h
-```
-
-
-## How to run a test
-
-```
-$ sudo ./test/run.sh
 ```
 
 
